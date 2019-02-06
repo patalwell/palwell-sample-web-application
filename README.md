@@ -1,4 +1,4 @@
-# springWebApp_BDMDataTables
+# springBootDataTables
 
 <h2>Springboot Web Application supporting JQuery DataTables</h2>
 
