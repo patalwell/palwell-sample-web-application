@@ -2,7 +2,7 @@
 
 <h2>Springboot Web Application supporting JQuery DataTables</h2>
 
-This repository contains a springBoot application that conducts a look up on an internal database table and returns a select number of columns. It is intended to be used by the customer service team during our migration from ACI for transaction processing.
+This repository contains a springBoot application that leverages JQuery DataTables. It is intended to be used as a template for future projects.
 
 <b>Runtime Requirements:</b>
 
@@ -11,8 +11,8 @@ This repository contains a springBoot application that conducts a look up on an 
 
 <b>To Run This Application:</b>
 
-Note: You'll need credentials for JDBC and API keys for Okta
-
 1. Clone the repo and `cd` into the parent directory
-2. Run `mvn package` to create a JAR
-3. Run `java -jar /target/*.1.0-SNAPSHOT.jar`
+2. Run `mvn clean package` to create a JAR
+3. Run `java -jar /target/springBootDataTables-0.0.1-SNAPSHOT.jar`
+4. Visit `localhost:8080/` in your browser of choice`
+

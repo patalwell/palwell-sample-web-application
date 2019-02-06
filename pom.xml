@@ -9,10 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.palwell</groupId>
-	<artifactId>springWebApp_BDMDataTables</artifactId>
+	<artifactId>springBootDataTables</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springWebApp_BDMDataTables</name>
-	<description>Springboot Web Application supporting BDM DataTables</description>
+	<name>springBootDataTables</name>
+	<description>Springboot Web Application using JQuery
+		DataTables</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -52,21 +53,21 @@
 		</dependency>
 
 		<!--WebDevelopment Dependencies https://www.webjars.org/-->
-		<dependency>
-			<groupId>org.webjars</groupId>
-			<artifactId>jquery</artifactId>
-			<version>3.3.1</version>
-		</dependency>
-		<dependency>
-			<groupId>org.webjars</groupId>
-			<artifactId>jquery-ui</artifactId>
-			<version>1.12.1</version>
-	</dependency>
-		<dependency>
-			<groupId>org.webjars</groupId>
-			<artifactId>bootstrap</artifactId>
-			<version>4.1.1</version>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>org.webjars</groupId>-->
+			<!--<artifactId>jquery</artifactId>-->
+			<!--<version>3.3.1</version>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>org.webjars</groupId>-->
+			<!--<artifactId>jquery-ui</artifactId>-->
+			<!--<version>1.12.1</version>-->
+	<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>org.webjars</groupId>-->
+			<!--<artifactId>bootstrap</artifactId>-->
+			<!--<version>4.1.1</version>-->
+		<!--</dependency>-->
 
 		<!--WebSerialization Support-->
         <dependency>
