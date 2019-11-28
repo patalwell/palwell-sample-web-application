@@ -1,0 +1,25 @@
+#main-div{
+    class:"fluid";
+}
+
+#data-table-div{
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+}
+
+#content-div{
+    padding-top:2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+}
+
+hr{
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 3px solid #ccc;
+    margin: 1em 0;
+}

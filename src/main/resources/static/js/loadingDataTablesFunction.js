@@ -9,16 +9,37 @@
  https://www.thymeleaf.org/doc/articles/thymeleaf3migration.html
  https://github.com/jmiguelsamper/thymeleaf3-template-modes-example
  *
+
+ To Do:
+
+ 1. Add file upload ability for Table Injection
+
+
  */
 //
-// var modaleSectionTable = null;
+var modalSectionTable = null;
 
 $(function(){
 
-    // console.log(userList)
+    function init(){
+      document.getElementById('fileInput').addEventListener('change', handleFileSelect, false);
+    }
+
+    function handleFileSelect(event){
+      const reader = new FileReader()
+      reader.onload = handleFileLoad;
+      reader.readAsText(event.target.files[0])
+    }
+
+    function handleFileLoad(event){
+      console.log(event);
+      document.getElementById('fileContent').textContent = event.target.result;
+    }
 
 
-    var modaleSectionTable = $("#table1").DataTable({
+
+
+    modalSectionTable = $("#table1").DataTable({
                 "Paginate": true,
                 "bLengthChange": false,
                 "bFilter": true,

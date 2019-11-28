@@ -1,4 +1,4 @@
-# springBootDataTables
+# SpringBoot DataTables
 
 <h2>Springboot Web Application supporting JQuery DataTables</h2>
 
